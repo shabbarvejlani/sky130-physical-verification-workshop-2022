@@ -16,6 +16,7 @@
 - schematic editor + console on terminal
 - exit
 - xschem --tcl <test.tcl> -q
+- 'e' to descend schematic, ctrl + 'e' to ascend
 ### ngspice
 - command line
 - quit

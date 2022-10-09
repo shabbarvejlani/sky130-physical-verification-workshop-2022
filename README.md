@@ -6,6 +6,8 @@
 - quit
 - magic -noconsole
 - magic -dnull -noconsole <test.tcl> (when running from a script)
+- magic -d XR (chirographics package)
+- magic -d OGL (opengl package)
 ### netgen
 - has a gui but its discouraged to use since it hides options and does not have a associated tcl prompt
 -- /usr/local/lib/netgen/python/lvs_manager.py

@@ -25,9 +25,9 @@
 - mkdir <project>
 - cd <project>
 - mkdir xschem
- - ln -s /usr/share/pdk/sky130A/libs.tech/xschem/xschemrc
- - ln -s /usr/share/pdk/sky130A/libs.tech/ngspice/spinit .spiceinit
+  - ln -s /usr/share/pdk/sky130A/libs.tech/xschem/xschemrc
+  - ln -s /usr/share/pdk/sky130A/libs.tech/ngspice/spinit .spiceinit
 - mkdir mag
- - ln -s /usr/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
+  - ln -s /usr/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
 - mkdir netgen
- - ln -s /usr/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl setup.tcl
+  - ln -s /usr/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl setup.tcl

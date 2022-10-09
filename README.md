@@ -8,6 +8,10 @@
 - magic -dnull -noconsole <test.tcl> (when running from a script)
 - magic -d XR (chirographics package)
 - magic -d OGL (opengl package)
+- shift+z to zoom out
+- 'p' key when pointer over the layer pallete will fill the box. can also use middle click and hove mouse on empty space in layout
+- 'e' key when pointer over the box , will erase the layer. can also use middle click and hove mouse on empty space in layout
+- disable/re-enable toolbar if the layer pallete is not showing all layers.
 ### netgen
 - has a gui but its discouraged to use since it hides options and does not have a associated tcl prompt
 -- /usr/local/lib/netgen/python/lvs_manager.py

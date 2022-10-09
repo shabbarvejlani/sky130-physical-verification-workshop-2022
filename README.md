@@ -40,3 +40,20 @@
   - ln -s /usr/share/pdk/sky130A/libs.tech/magic/sky130A.magicrc .magicrc
 - mkdir netgen
   - ln -s /usr/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl setup.tcl
+  
+## creating an inverter
+- select pfet3, nfet3 device
+- wire up
+- best practice: keep tb and design separate
+- for design, add iport(input), oport(output) and ioport(power)
+- create a symbol from schematic
+- create new schematic for tb
+- add voltage sources
+- add probe points for ngspice
+- add code_space.sym
+  - one for including the sky130 device libs
+  - one for including the ngspice control code
+    - in the control code, selection of transient sim is done and other solver configuration.
+    - additionally signals for plotting are chosen
+- click on netlist
+- click on simulate

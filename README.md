@@ -58,6 +58,11 @@
 - click on netlist
 - click on simulate
 
+![alt text](images/Screenshot_20221011-004630_aRDP%20Free.jpg "inverter schematic")
+![alt text](images/Screenshot_20221011-004718_aRDP%20Free.jpg "inverter_tb schematic")
+![alt text](images/Screenshot_20221011-004559_aRDP%20Free.jpg "inverter ngspice plot")
+
+
 ## creating layout
 - devices and ports are imported in mag from the xschem schematic
 - select using "i" and then "ctrl + p" to open the parameter window

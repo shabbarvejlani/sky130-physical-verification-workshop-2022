@@ -23,7 +23,7 @@
 ### xschem
 - schematic editor + console on terminal
 - exit
-- xschem --tcl <test.tcl> -q
+- xschem --tcl test.tcl -q
 - 'e' to descend schematic, ctrl + 'e' to ascend
 ### ngspice
 - command line
@@ -31,8 +31,8 @@
 - ngspice -b
 
 ## setup tools for skywater130 for a project
-- mkdir <project>
-- cd <project>
+- mkdir project
+- cd project
 - mkdir xschem
   - ln -s /usr/share/pdk/sky130A/libs.tech/xschem/xschemrc
   - ln -s /usr/share/pdk/sky130A/libs.tech/ngspice/spinit .spiceinit
@@ -57,3 +57,28 @@
     - additionally signals for plotting are chosen
 - click on netlist
 - click on simulate
+
+## creating layout
+- devices and ports are imported in mag from the xschem schematic
+- select using "i" and then "ctrl + p" to open the parameter window
+- edit the top via guard grid parameters to +40, +40 (??)
+- move and place the device by selecting devices, move cross-hair to required position and then click "m"
+- connect the devices using wires, which is basically by drawing rectangular boxes using metal layer.
+
+### generate netlist for LVS
+- exts2pice lvs
+- ext2spice local
+- ext2spice all
+
+### generate netlist for Post Layout Simulation
+- ext2spice local
+- ext2spice cthresh 0
+- ext2spice all
+
+### Post-Layout Simulation
+- replace the inverter in the previous inverter_tb.spice with the extracted inverter.
+- to do this:
+  - replace the instantiation port parameter mapping as per the extracted netlist port order
+  - delete the inverter subckt definition from the schematic
+  - include the extract netlist inverter definition using .include statement pointing to the required file.
+- run simulation using: ngspice inverter_tb.spice

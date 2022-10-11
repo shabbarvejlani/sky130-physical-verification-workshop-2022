@@ -94,3 +94,9 @@
 - ./run_magic
 - open exercise1.mag
 - 'z' to zoom-in and 'shift + z' to zoom-out 
+- left mouse click to position the bottom left of the selection box. 
+- right mouse click to select the top right co-ordinate of the selection box.
+- once the selection box is done, press '?' to see the DRC error related info in the magic console
+- mouse scroll to move up-down
+- shift + mouse scroll to move right-left
+- hover the mouse pointer on the object to be selected and press 's' to select it.

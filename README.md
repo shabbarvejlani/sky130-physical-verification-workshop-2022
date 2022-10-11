@@ -87,3 +87,10 @@
   - delete the inverter subckt definition from the schematic
   - include the extract netlist inverter definition using .include statement pointing to the required file.
 - run simulation using: ngspice inverter_tb.spice
+
+## Day 2
+- git clone https://github.com/RtimothyEdwards/vsd_drc_lab.git
+- cd vsd_drc_lab
+- ./run_magic
+- open exercise1.mag
+- 'z' to zoom-in and 'shift + z' to zoom-out 

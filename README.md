@@ -100,4 +100,5 @@
 - mouse scroll to move up-down
 - shift + mouse scroll to move right-left
 - hover the mouse pointer on the object to be selected and press 's' to select it.
-- typing 'box' command after selection, shows the dimension of the selection.
+- typing 'box' command after selection, shows the dimension of the selection or press the 'b' key
+- to move selected region to right, press '6'

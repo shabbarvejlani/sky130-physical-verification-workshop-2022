@@ -102,3 +102,5 @@
 - hover the mouse pointer on the object to be selected and press 's' to select it.
 - typing 'box' command after selection, shows the dimension of the selection or press the 'b' key
 - to move selected region to right, press '6'
+- '>' key to descend, '<' key to ascend.
+-  'load <cellname>' to directly load cell in console prompt.

@@ -109,6 +109,9 @@
 ## Day3
 |Rule| Context | Way to fix | Command|
 |----|---------|------------|--------|
-|Width Rule| met should have particular width| select and paint extra width| NA|
-|Spacing Rule| Two metal lines should have mixing spacing between them | select and move| NA|
-|Wide Spacing Rule| Big metal near small metal should have particular spacing| select and move| NA|
+|Width Rule| met should have particular width| select and paint extra width| paint met2|
+|Spacing Rule| Two metal lines should have mixing spacing between them | select and move| move e 1|
+|Wide Spacing Rule| Big metal near small metal should have particular spacing| select and move| move e 2|
+|Notch Spacing Rule| The two edges of the notch should have minimum spacing| select and move| a; move n 2|  
+  
+  

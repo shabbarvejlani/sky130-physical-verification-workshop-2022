@@ -111,3 +111,4 @@
 |----|---------|------------|--------|
 |Width Rule| met should have particular width| select and paint extra width| NA|
 |Spacing Rule| Two metal lines should have mixing spacing between them | select and move| NA|
+|Wide Spacing Rule| Big metal near small metal should have particular spacing| select and move| NA|

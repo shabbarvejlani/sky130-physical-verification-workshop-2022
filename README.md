@@ -104,3 +104,9 @@
 - to move selected region to right, press '6'
 - '>' key to descend, '<' key to ascend.
 -  'load <cellname>' to directly load cell in console prompt.
+
+
+## Day3
+|Rule| Context | Way to fix | Command|
+|----|---------|------------|--------|
+|Width Rule| met should have particular width| select and paint extra width| NA|

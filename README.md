@@ -114,7 +114,7 @@
 |Wide Spacing Rule| Big metal near small metal should have particular spacing| select and move| move e 2|
 |Notch Spacing Rule| The two edges of the notch should have minimum spacing| stretch and move| a <br> move n 2 <br> shift+keypad arrow keys <br> stret e 1.6um |
 |Via Size||||
-|Multiple Vias||||
+|Multiple Vias||to see contact cuts| select the via <br> cif see "MCON" <br> feedback why <br> feedback clear|
 |Via Overlap||||
 |Autogenerate Vias||||
 
